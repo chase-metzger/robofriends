@@ -1,20 +1,20 @@
-import {shallow, mount} from 'enzyme';
+import { shallow } from 'enzyme'
 
-import React from 'react';
-import CardList from './CardList';
+import React from 'react'
+import CardList from './CardList'
 
 describe('<CardList />', () => {
-	it('expect to render CardList component', () => {
-		expect.assertions(1);
+  it('expect to render CardList component', () => {
+    expect.assertions(1)
 
-		const mockRobots = [
-			{
-				id: 1,
-				name: 'Jon Snow',
-				username: 'JonJon',
-				email: 'jon@gmail.com'
-			}
-		];
-		expect(shallow(<CardList robots={mockRobots} />)).toMatchSnapshot();
-	});
-});
+    const mockRobots = [
+      {
+        id: 1,
+        name: 'Jon Snow',
+        username: 'JonJon',
+        email: 'jon@gmail.com'
+      }
+    ]
+    expect(shallow(<CardList robots={mockRobots} />)).toMatchSnapshot()
+  })
+})

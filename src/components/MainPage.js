@@ -22,7 +22,7 @@ class MainPage extends React.Component{
 
 	render(){
 		const {onSearchChange, isPending} = this.props;
-		
+
 		if(isPending){
 			return <h1>Loading...</h1>;
 		}else{
