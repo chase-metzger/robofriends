@@ -5,12 +5,13 @@ class ErrorBoundary extends React.Component {
     super(props)
 
     this.state = {
-      hasError: false
+      hasError: false,
+      error: null
     }
   }
 
   componentDidCatch (error, info) {
-    this.setState({ hasError: true })
+    this.setState({ hasError: true, error })
   }
 
   render () {
