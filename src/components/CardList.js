@@ -7,8 +7,8 @@ export default function CardList ({ robots }) {
   })
 
   return (
-    <div>
+    <React.Fragment>
       {cardsArray}
-    </div>
+    </React.Fragment>
   )
 }
