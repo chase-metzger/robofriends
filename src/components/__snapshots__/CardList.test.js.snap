@@ -5,16 +5,16 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <CardList
     robots={
-        Array [
-            Object {
-              "email": "jon@gmail.com",
-              "id": 1,
-              "name": "Jon Snow",
-              "username": "JonJon",
-            },
-          ]
+      Array [
+        Object {
+          "email": "jon@gmail.com",
+          "id": 1,
+          "name": "Jon Snow",
+          "username": "JonJon",
+        },
+      ]
     }
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -34,7 +34,7 @@ ShallowWrapper {
           email="jon@gmail.com"
           id={1}
           name="Jon Snow"
-/>,
+        />,
       ],
     },
     "ref": null,
@@ -66,7 +66,7 @@ ShallowWrapper {
             email="jon@gmail.com"
             id={1}
             name="Jon Snow"
-/>,
+          />,
         ],
       },
       "ref": null,

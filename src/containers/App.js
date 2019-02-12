@@ -5,10 +5,8 @@ import MainPage from '../components/MainPage'
 
 import { setSearchField, requestRobots } from '../actions/actions'
 
-class App extends React.Component {
-  render () {
-    return <MainPage {...this.props} />
-  }
+function App (props) {
+  return <MainPage {...props} />
 };
 
 const mapStateToProps = (state) => ({

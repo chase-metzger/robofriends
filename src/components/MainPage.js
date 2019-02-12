@@ -8,7 +8,7 @@ import Header from '../components/Header';
 
 import './MainPage.css';
 
-class MainPage extends React.Component{
+export default class MainPage extends React.Component{
 
 	componentDidMount(){
 		this.props.onRequestRobots();
@@ -40,5 +40,3 @@ class MainPage extends React.Component{
 		}
 	}
 };
-
-export default MainPage;
